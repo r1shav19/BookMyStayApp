@@ -1,13 +1,18 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class BookMyStayApp {
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+    /**
+     * Application entry point.
+     * This method is the first method executed
+     * when the program is launched by the JVM.
+     *
+     * @param args Command-line arguments
+     */
+    public static void main(String[] args) {
+
+        // Print welcome message
+        System.out.println("Welcome to the Hotel Booking Management System");
+
+        // Print system initialization message
+        System.out.println("System initialized successfully.");
     }
 }
